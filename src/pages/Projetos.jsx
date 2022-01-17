@@ -36,7 +36,7 @@ export default class Projetos extends Component {
             </div>
 
             <div class="project">
-              <a href="https://trybetunes-rho.vercel.app/">
+              <a href="https://trybetunes-ten.vercel.app/">
                 <p>TrybeTunes</p>
                 <img src={trybeTunes} alt="" className="project_img" />
               </a>
