@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  background-color: #121212;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  font-size: 18px;
+}
+
+.icon {
+  width: 35px;
+  filter: invert(100%) sepia(99%) saturate(16%) hue-rotate(241deg)
+    brightness(104%) contrast(100%);
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  filter: invert(70%) sepia(61%) saturate(480%) hue-rotate(98deg)
+    brightness(91%) contrast(83%);
+  cursor: pointer;
+}
+
+.header_link {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.header_link:hover {
+  color: #3ccf91;
+}
+
+.selected {
+  color: red;
+}
+
+.nav_links{
+  margin-right: 100px;
+}
