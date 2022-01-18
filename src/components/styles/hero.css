@@ -337,7 +337,7 @@ border-radius: 4px;
 }
 
 .formularioContato input {
-  color: black;
+  /* color: black; */
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -346,7 +346,7 @@ border-radius: 4px;
   height: 100px;
   max-width: 300px;
   max-height: 100px;
-  color: black;
+  /* color: black; */
   margin-bottom: 10px;
   font-weight: 600;
 }

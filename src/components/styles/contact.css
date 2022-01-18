@@ -1,0 +1,33 @@
+.inputName {
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid rgb(29, 172, 105);
+  outline: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+.inputEmail {
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid rgb(29, 172, 105);
+  outline: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+.formularioContato textarea {
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid rgb(29, 172, 105);
+  /* border-right: 2px solid rgb(29, 172, 105); */
+  border-left: 2px solid rgb(29, 172, 105);
+  outline: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+.submit {
+  background-color: black;
+  color: rgb(29, 172, 105);
+  border: 2px solid rgb(29, 172, 105);
+  border-radius: 5px;
+  height: 25px;
+}
