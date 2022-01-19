@@ -10,6 +10,8 @@ import linkedin from '../images/linkedin.svg';
 import Footer from '../components/Footer';
 import trybeWallet from '../images/trybewallet.png';
 import trybeTunes from '../images/trybetunes.png';
+import trivia from '../images/trivia.png';
+
 
 
 export default class Projetos extends Component {
@@ -28,6 +30,14 @@ export default class Projetos extends Component {
           </div>
 
           <div class="project-container">
+
+          <div class="project">
+              <a href="https://trivia-dun-five.vercel.app/">
+                <p>Trivia</p>
+                <img src={trivia} alt="" className="project_img" />
+              </a>
+            </div>
+
             <div class="project">
               <a href="https://trybewallet-cyan.vercel.app/">
                 <p>TrybeWallet</p>
