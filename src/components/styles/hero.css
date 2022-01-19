@@ -167,6 +167,13 @@ body {
   position: absolute;
 }
 
+.notFound{
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .personal-info {
   height: 70vh;
   font-size: 1.5em;
@@ -205,9 +212,11 @@ body {
 
 .welcome_projects {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  justify-content: center;
-  padding: 50px 100px;
+  margin-top: 30px;
+  /* justify-content: center; */
+  padding: 0px 100px;
   /* margin-bottom: 20px; */
   /* padding-top: 40px; */
 }
@@ -261,8 +270,6 @@ body {
 .hero_notFound {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* justify-content: space-evenly; */
 }
 
 .notFound_image {
@@ -324,6 +331,13 @@ body {
   /* height: 100vh; */
   justify-content: center;
   /* align-items: center; */
+}
+
+.contactBox {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
 }
 
 .formularioContato {

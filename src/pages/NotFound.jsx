@@ -12,7 +12,7 @@ export default class NotFound extends Component {
         <div className="hero_notFound">
           <img src={notFound} className="notFound_image" />
 
-          <div class="welcome_projects">
+          <div class="welcome_project">
             <div class="presentation">
               <p>
                 <b class="green">&lt;</b> Ainda estamos trabalhando
