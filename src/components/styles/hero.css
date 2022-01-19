@@ -207,7 +207,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 100px;
+  padding: 50px 100px;
   /* margin-bottom: 20px; */
   /* padding-top: 40px; */
 }
