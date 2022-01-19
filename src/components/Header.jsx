@@ -19,6 +19,9 @@ export default class Header extends Component {
           <Link to="/contato" className="header_link">
             Contato
           </Link>
+          <Link to="/blog" className="header_link">
+            Blog
+          </Link>
         </nav>
       </div>
     );

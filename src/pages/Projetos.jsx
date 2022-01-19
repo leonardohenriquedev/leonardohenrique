@@ -114,7 +114,7 @@ export default class Projetos extends Component {
             </a>
           </div>
         </div>
-        <Footer notFound="true" />
+        <Footer />
       </div>
     );
   }

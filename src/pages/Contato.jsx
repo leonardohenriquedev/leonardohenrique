@@ -8,7 +8,8 @@ import Footer from '../components/Footer';
 
 export default class Contato extends Component {
   render() {
-    return (<div>
+    return (
+    <div className='contactPage'>
 
       <div class="welcome_projects">
       <div class="presentation">
