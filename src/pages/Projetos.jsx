@@ -12,8 +12,6 @@ import trybeWallet from '../images/trybewallet.png';
 import trybeTunes from '../images/trybetunes.png';
 import trivia from '../images/trivia.png';
 
-
-
 export default class Projetos extends Component {
   render() {
     return (
@@ -30,8 +28,7 @@ export default class Projetos extends Component {
           </div>
 
           <div class="project-container">
-
-          <div class="project">
+            <div class="project">
               <a href="https://trivia-dun-five.vercel.app/">
                 <p>Trivia</p>
                 <img src={trivia} alt="" className="project_img" />
@@ -51,7 +48,7 @@ export default class Projetos extends Component {
                 <img src={trybeTunes} alt="" className="project_img" />
               </a>
             </div>
-            
+
             <div class="project">
               <a href="https://leonardohenriquedev.github.io/solar-system/">
                 <p>Solar System</p>
@@ -98,7 +95,7 @@ export default class Projetos extends Component {
             <a
               href="https://github.com/leonardohenriquedev"
               class="link social-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={github} alt="github-logo" />
               GitHub
@@ -107,7 +104,7 @@ export default class Projetos extends Component {
             <a
               href="https://www.linkedin.com/in/leonardohenriquemachado/"
               class="link social-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin-logo" />
               Linkedin
