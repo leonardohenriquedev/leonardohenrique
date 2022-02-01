@@ -7,10 +7,6 @@ import Typewriter from 'typewriter-effect';
 import GraphemeSplitter from 'grapheme-splitter';
 
 export default class Hero extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     const stringSplitter = (string) => {
       const splitter = new GraphemeSplitter();
@@ -37,7 +33,12 @@ export default class Hero extends Component {
           <div class="course">
             <p>
               Estudante de desenvolvimento Web FullStack na
-              <a href="https://www.betrybe.com/" class="green" target="_blank">
+              <a
+                href="https://www.betrybe.com/"
+                class="green"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Trybe!
               </a>
             </p>
@@ -66,6 +67,7 @@ export default class Hero extends Component {
               href="https://github.com/leonardohenriquedev"
               class="link social-link"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={github} alt="github-logo" />
               GitHub
@@ -75,6 +77,7 @@ export default class Hero extends Component {
               href="https://www.linkedin.com/in/leonardohenriquemachado/"
               class="link social-link"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin-logo" />
               Linkedin
