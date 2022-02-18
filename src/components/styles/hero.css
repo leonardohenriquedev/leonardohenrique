@@ -390,7 +390,7 @@ body {
   box-shadow: inset 0 0 6px #3ccf91;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 900px) {
   .home {
     width: 100%;
     display: flex;
