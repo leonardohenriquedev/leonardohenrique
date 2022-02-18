@@ -4,8 +4,8 @@ import css from '../images/tecnologies/css.svg';
 import js from '../images/tecnologies/js.svg';
 import react from '../images/tecnologies/react.png';
 import redux from '../images/tecnologies/redux.png';
-
 import jest from '../images/tecnologies/jest.png';
+import docker from '../images/tecnologies/docker.png';
 import git from '../images/tecnologies/git.png';
 
 export default class Tecnologies extends Component {
@@ -40,6 +40,11 @@ export default class Tecnologies extends Component {
         <div className="tecnologie">
           <img src={jest} className="tecnologieLogo" />
           Jest
+        </div>
+
+        <div className="tecnologie">
+          <img src={docker} className="tecnologieLogo dockerLogo" />
+          Docker
         </div>
 
         <div className="tecnologie">
