@@ -196,7 +196,7 @@ body {
 
 .description {
   font-size: 20px;
-  width: 1100px;
+  width: 800px;
   line-height: 35px;
   text-align: justify;
 }
@@ -320,19 +320,21 @@ body {
 }
 
 .tecnologie img {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .tecnologieLogo {
-  width: 20px;
+  width: 30px;
+}
+
+.dockerLogo {
+  transform: scale(180%);
 }
 
 .contactPage {
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
   justify-content: center;
-  /* align-items: center; */
 }
 
 .contactBox {
@@ -451,7 +453,6 @@ body {
 
   .welcome_projects {
     padding: 0px 30px;
-
   }
 
   .contactBox {
@@ -462,9 +463,8 @@ body {
   }
 
   .project-container {
-margin-left: 60px;
+    margin-left: 60px;
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
