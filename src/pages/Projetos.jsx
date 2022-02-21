@@ -11,6 +11,8 @@ import Footer from '../components/Footer';
 import trybeWallet from '../images/trybewallet.png';
 import trybeTunes from '../images/trybetunes.png';
 import trivia from '../images/trivia.png';
+import southDragons from '../images/southdragons.png';
+
 
 export default class Projetos extends Component {
   render() {
@@ -32,6 +34,13 @@ export default class Projetos extends Component {
               <a href="https://trivia-dun-five.vercel.app/">
                 <p>Trivia</p>
                 <img src={trivia} alt="" className="project_img" />
+              </a>
+            </div>
+
+            <div class="project">
+              <a href="https://south-dragons.vercel.app/">
+                <p>South Dragons</p>
+                <img src={southDragons} alt="" className="project_img" />
               </a>
             </div>
 
@@ -95,7 +104,8 @@ export default class Projetos extends Component {
             <a
               href="https://github.com/leonardohenriquedev"
               class="link social-link"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={github} alt="github-logo" />
               GitHub
@@ -104,7 +114,8 @@ export default class Projetos extends Component {
             <a
               href="https://www.linkedin.com/in/leonardohenriquemachado/"
               class="link social-link"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin-logo" />
               Linkedin
