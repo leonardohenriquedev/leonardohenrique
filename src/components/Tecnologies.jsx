@@ -7,6 +7,15 @@ import redux from '../images/tecnologies/redux.png';
 import jest from '../images/tecnologies/jest.png';
 import docker from '../images/tecnologies/docker.png';
 import git from '../images/tecnologies/git.png';
+import node from '../images/tecnologies/node.png';
+import sql from '../images/tecnologies/sql.png';
+import rest from '../images/tecnologies/rest.png';
+import mocha from '../images/tecnologies/mocha.png';
+
+
+
+
+
 
 export default class Tecnologies extends Component {
   render() {
@@ -45,6 +54,26 @@ export default class Tecnologies extends Component {
         <div className="tecnologie">
           <img src={docker} className="tecnologieLogo dockerLogo" />
           Docker
+        </div>
+
+        <div className="tecnologie">
+          <img src={node} className="tecnologieLogo nodeLogo" />
+          Node.js
+        </div>
+
+        <div className="tecnologie">
+          <img src={sql} className="tecnologieLogo sqlLogo" />
+          SQL
+        </div>
+
+        <div className="tecnologie">
+          <img src={rest} className="tecnologieLogo restLogo" />
+          Restful
+        </div>
+
+        <div className="tecnologie">
+          <img src={mocha} className="tecnologieLogo mochaLogo" />
+          Mocha+Chai+Sinon
         </div>
 
         <div className="tecnologie">
