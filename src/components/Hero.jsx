@@ -32,14 +32,14 @@ export default class Hero extends Component {
 
           <div class="course">
             <p>
-              Estudante de desenvolvimento Web FullStack na
+              Full Stack Developer na
               <a
-                href="https://www.betrybe.com/"
+                href="https://fontespromotora.com.br/"
                 class="green"
                 target="_blank"
                 rel="noreferrer"
               >
-                Trybe!
+                Fontes Promotora!
               </a>
             </p>
           </div>
@@ -47,7 +47,7 @@ export default class Hero extends Component {
           <div class="infos">
             <p>🚀 Explorando oportunidades e projetos paralelos.</p>
             <div className="typingEffect">
-              <p>🎓 Estudando na melhor escola de programação</p>
+              <p>🎓 Estudei na melhor escola de programação</p>
               <Typewriter
                 options={{
                   strings: [' do mundo 🌍', ' das galáxias 🛸', ' de todas 🥳'],
