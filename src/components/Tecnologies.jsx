@@ -31,10 +31,10 @@ export default class Tecnologies extends Component {
           CSS
         </div>
 
-        <div className="tecnologie">
+        {/* <div className="tecnologie">
           <img src={js} className="tecnologieLogo" />
           JavaScript
-        </div>
+        </div> */}
 
         <div className="tecnologie">
           <img src={react} className="tecnologieLogo" />
@@ -71,15 +71,15 @@ export default class Tecnologies extends Component {
           Restful
         </div>
 
-        <div className="tecnologie">
+        {/* <div className="tecnologie">
           <img src={mocha} className="tecnologieLogo mochaLogo" />
           Mocha+Chai+Sinon
-        </div>
+        </div> */}
 
-        <div className="tecnologie">
+        {/* <div className="tecnologie">
           <img src={git} className="tecnologieLogo" />
           GitHub
-        </div>
+        </div> */}
       </div>
     );
   }

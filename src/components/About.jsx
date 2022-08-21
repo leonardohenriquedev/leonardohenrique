@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import leo from '../images/leo.jpeg';
+// import leo from '../images/leo2.jpg';
 
 export default class About extends Component {
   render() {
@@ -24,8 +24,9 @@ export default class About extends Component {
               MSQLWorkbench, Dbeaver, Jira, Trello, Slack, Discord, Zoom,
               GMeet..
             </p>
-
-            <img src={leo} alt="" class="img-description" />
+            <div className='div-img-desc'>
+              {/* <img src={leo} alt="" class="img-description" /> */}
+            </div>
           </div>
         </div>
       </div>

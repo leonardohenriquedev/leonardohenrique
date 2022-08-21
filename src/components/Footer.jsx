@@ -13,7 +13,7 @@ export default class Footer extends Component {
         <a
           href="https://www.instagram.com/leozera7_/"
           target="_blank"
-          className="footer_link"
+          className="footer_link" rel="noreferrer"
         >
           {/* <img src={instagram} className="footer_icon" /> */}
           Developed by Leonardo Henrique ®
@@ -24,7 +24,7 @@ export default class Footer extends Component {
         <a
           href="https://www.instagram.com/leozera7_/"
           target="_blank"
-          className="footer_link"
+          className="footer_link" rel="noreferrer"
         >
           {/* <img src={instagram} className="footer_icon" /> */}
           Developed by Leonardo Henrique ®
